@@ -1,5 +1,5 @@
 <template>
-  <PgHome/>
+  <PgHome />
 </template>
 
 <script>
@@ -8,17 +8,17 @@ import PgHome from "./components/PgHome.vue";
 export default {
   name: "App",
   components: {
-    PgHome
-  }
+    PgHome,
+  },
 };
 </script>
 
 <style>
-body{
-background: #ff8f;
-color: #113658;
+body {
+  background: #ff8f;
+  color: #113658;
 }
-.backgroundBlue{
+.backgroundBlue {
   background: #4475a3;
   color: white;
 }
