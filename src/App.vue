@@ -12,3 +12,14 @@ export default {
   }
 };
 </script>
+
+<style>
+body{
+background: #ff8f;
+color: #113658;
+}
+.backgroundBlue{
+  background: #4475a3;
+  color: white;
+}
+</style>

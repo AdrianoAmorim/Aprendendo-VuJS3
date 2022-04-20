@@ -7,6 +7,8 @@
   <PgGatilhos />
   <br />
   <PgDiretivas />
+  <br />
+  <PgMetodos />
 </template>
 
 <script>
@@ -14,6 +16,7 @@ import PgDadosLocais from "./PgDadosLocais.vue";
 import PgDataBinding from "./PgDataBinding.vue";
 import PgGatilhos from "./PgGatilhos.vue";
 import PgDiretivas from "./PgDiretivas.vue";
+import PgMetodos from "./PgMetodos.vue";
 export default {
   name: "PgHome",
   components: {
@@ -21,6 +24,7 @@ export default {
     PgDataBinding,
     PgGatilhos,
     PgDiretivas,
+    PgMetodos
   },
 };
 </script>
